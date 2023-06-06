@@ -5,15 +5,13 @@ body {
 
 #computer-choice {
     width: 400px;
-    height: 400px;
-    background-color: blue;
+    height: 280px;
     margin-top: 10px;
 }
 
 #player-choice {
     width: 400px;
-    height: 400px;
-    background-color: green;
+    height: 280px;
     margin-top: 10px;
 }
 
