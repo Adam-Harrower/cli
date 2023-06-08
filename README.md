@@ -22,6 +22,8 @@
 
 ## Bugs 
 + The score on the game screen does not always count up for the winning player as it should.
++ I would like to have implemented a high score reset function, best out 3 or 5.
++ There is a problem with the responsiveness at 320px with the player score overlapping the player choices section.
 
 ## Validator Testing 
 + No errors were found using W3C CSS validator.
