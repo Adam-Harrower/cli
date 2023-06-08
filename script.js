@@ -15,7 +15,7 @@ window.onload = function() {
         choice.addEventListener("click", selectChoice);
         document.getElementById("choices").append(choice);
     }
-}
+};
 
 function selectChoice(){
     player = this.id;
@@ -32,7 +32,7 @@ function selectChoice(){
     else{
         if(player == "rock"){
             if (computer == "scissors"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "paper"){
                 computerScore +=1;
@@ -40,7 +40,7 @@ function selectChoice(){
         }
         else if(player == "rock"){
             if (computer == "lizard"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "spock"){
                 computerScore +=1;
@@ -48,7 +48,7 @@ function selectChoice(){
         }
         else if(player == "paper"){
             if (computer == "rock"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "scissors"){
                 computerScore +=1;
@@ -56,7 +56,7 @@ function selectChoice(){
         }
         else if(player == "paper"){
             if (computer == "spock"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "lizard"){
                 computerScore +=1;
@@ -64,7 +64,7 @@ function selectChoice(){
         }
         else if(player == "scissors"){
             if (computer == "paper"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "rock"){
                 computerScore +=1;
@@ -72,7 +72,7 @@ function selectChoice(){
         }
         else if(player == "scissors"){
             if (computer == "lizard"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "spock"){
                 computerScore +=1;
@@ -80,7 +80,7 @@ function selectChoice(){
         }
         else if(player == "lizard"){
             if (computer == "paper"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "rock"){
                 computerScore +=1;
@@ -88,7 +88,7 @@ function selectChoice(){
         }
         else if(player == "lizard"){
             if (computer == "spock"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "scissors"){
                 computerScore +=1;
@@ -96,7 +96,7 @@ function selectChoice(){
         }
         else if(player == "spock"){
             if (computer == "scissors"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "paper"){
                 computerScore +=1;
@@ -104,7 +104,7 @@ function selectChoice(){
         }
         else if(player == "spock"){
             if (computer == "rock"){
-                playerScore +=1
+                playerScore +=1;
             }
             else if ( computer == "lizard"){
                 computerScore +=1;

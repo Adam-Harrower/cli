@@ -24,7 +24,9 @@
 + The score on the game screen does not always count up for the winning player as it should.
 
 ## Validator Testing 
-+ No errors were found using W3C CSS validator, two errors were found using W3C Html validator and I was unable to correct them.
++ No errors were found using W3C CSS validator.
++ No errors were found using W3C HTML validator.
++ No errors were found using JS validator (https://jshint.com)
 
 ![Screenshot (4)](https://github.com/Adam-Harrower/cli/assets/125028133/af8853cb-3a79-4fb5-867c-c3e378731287)
 
